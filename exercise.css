@@ -1,79 +1,66 @@
 
-
-h2.ex1 {
-	text-align:center;
-	line-height:2em;
-	width: 7em;
-	height: 4em;
-	
-	color:white;
-	margin-top: 15%;
-	margin-left:-25%;
-	
-	font-family: Century Gothic, sans-serif;
-	font-size:35px;
-	font-weight: bold;
-	
-	float:left;
-	background-color: #2554C7;
-	border: ridge;
+.padding{
+	height:100px;
 }
 
-h2.ex2 {
-	text-align:center;
-	line-height:2em;
-	width: 5em;
-	height: 4em;
-	
-	color:white;
-	margin-top: 8%;
-	margin-left:12%;
-	
-	font-family: Century Gothic, sans-serif;
-	font-size:35px;
-	font-weight: bold;
-	
+.column{
 	float:left;
-	background-color:#FF8A14;
-	border: ridge;
-}
-
-h2.ex3 {
+	width:33%;
+	//background-color:brown;
+	display:inline-block;
 	text-align:center;
-	line-height:2em;
-	width: 7em;
-	height: 4em;
-	
-	color:white;
-	margin-top: -13%;
-	margin-left:50%;
-	
-	font-family: Century Gothic, sans-serif;
-	font-size:35px;
-	font-weight: bold;
-	
-	float:left;
-	background-color:#59E817;
-	border: ridge;
+	margin-left:auto;
+	margin-right:auto;
 }
-
-h2 a:link {
+	
+.column a:link {
     color:white;
 	text-decoration: none;
 }
 
-h2 a:visited {
+.column a:visited {
     color: white;
 }
 
-h2.ex1 a:hover {
+.column h2.blue a:hover {
 	color: orange;
 }
 
-h2.ex2 a:hover {
+.column h2.orange a:hover {
 	color: #1589FF;
 }
 
-h2.ex3 a:hover {
-	color:#A617E8;
+.column h2.green a:hover {
+	color: #A617E8;
+}
+
+.column h2{
+	margin-left:auto;
+	margin-right:auto;
+	width: 7em;
+	padding-top:5px;
+	padding-bottom:5px;
+	min-height:3em;
+	
+	font-family: Century Gothic, sans-serif;
+	font-size:35px;
+	font-weight: bold;
+	
+	color:white;
+	border: ridge;
+}
+
+.blue{
+	
+	background-color: #2554C7;
+}
+
+.orange{
+
+	background-color: #FF8A14;
+}
+
+.green{
+
+	background-color: #59E817;
 }

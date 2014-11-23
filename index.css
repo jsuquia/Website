@@ -1,12 +1,4 @@
 
-.content{
-	width:98%;
-//	background-color:pink;
-	overflow: hidden;
-	margin-left:auto;
-	margin-right:auto;
-}
-
 .column{
 	float:left;
 	width:50%;

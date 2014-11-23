@@ -7,7 +7,7 @@
 	margin-right:auto;
 }
 
-.left,.right{
+.column{
 	float:left;
 	width:50%;
 	//background-color:brown;

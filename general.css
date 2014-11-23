@@ -1,0 +1,135 @@
+body
+{
+	background-image: url('images/wood3.jpg'); 
+	background-size: 100% 85%;
+	background-repeat: no-repeat;
+	background-position:fixed;
+}
+
+.header{
+	width:100%;
+	height:8em;
+	top:0;
+	left:0;
+//	background-color:yellow;
+}
+
+h1
+{
+	font-size:50px;
+	text-align:left;
+	width: 8em;
+	color:white;
+	margin-top: 25px;
+	margin-left:50px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: bold;
+	float:left;
+	//background-color:green;
+}
+
+
+ul.nav
+{
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+	margin-top:50px;
+	overflow: hidden;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:20px;
+	float:right;
+}
+
+ul.nav li a 
+{      
+	text-decoration: none; 
+	display: block;        
+	padding: 5px;     
+	margin-right: 5px; 
+//	background-color: pink;      
+	width: 7em;     
+	text-align: center; 
+}
+
+ul.nav li 
+{     
+	float: left; 
+}
+
+ul.nav a:link {
+    color:white;
+	text-decoration: none;
+}
+ul.nav a:visited {
+    color: white;
+}
+
+ul.nav a:hover{
+	color:orange
+}
+
+.footer{
+	width:100%;
+	height: 6em;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+
+}
+
+.section{
+	width:33%;
+	text-align:center;
+	height:100%;
+	line-height:6em;
+//	background-color:green;
+	display:inline-block;
+}
+
+/*
+p.conf1 {
+	font-size: 15px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-top: 41%;
+	margin-left: 100px;
+	color: black;
+	overflow: hidden;
+	width:10em;
+//	background-color:red
+}
+
+p.conf2 {
+	font-size: 15px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-top: -3.5%;
+	margin-left: 40%;
+	color: black;
+	overflow: hidden;
+	width:15em;
+//	background-color:blue;
+}
+
+p.conf2 a:link {
+    color:black;
+	text-decoration: none;
+}
+
+p.conf2 a:visited {
+    color: black;
+}
+
+p.conf2 a:hover {
+	color: orange;
+}
+
+p.conf3 {
+	font-size: 15px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-top: -4.5%;
+	margin-left: 80%;
+	color: black;
+	overflow: hidden;
+	width:13em;
+//	background-color: yellow;
+}*/

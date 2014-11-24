@@ -8,7 +8,6 @@ body
 
 .content{
 	width:98%;
-//	background-color:pink;
 	overflow: hidden;
 	margin-left:auto;
 	margin-right:auto;
@@ -19,7 +18,6 @@ body
 	height:7em;
 	top:0;
 	left:0;
-//	background-color:yellow;
 }
 
 h1
@@ -33,7 +31,6 @@ h1
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-weight: bold;
 	float:left;
-	//background-color:green;
 }
 
 
@@ -54,8 +51,7 @@ ul.nav li a
 	text-decoration: none; 
 	display: block;        
 	padding: 5px;     
-	margin-right: 5px; 
-//	background-color: pink;      
+	margin-right: 5px;     
 	width: 7em;     
 	text-align: center; 
 }

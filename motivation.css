@@ -1,8 +1,9 @@
 .column{
 	text-align: center;
     float:left;
+    margin-top: 0;
 	width:48%;
-	//background-color:brown;
+//	background-color:brown;
 	display:inline-block;
 }
 

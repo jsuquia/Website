@@ -1,0 +1,52 @@
+.column{
+	text-align: center;
+    float:left;
+	width:48%;
+	//background-color:brown;
+	display:inline-block;
+}
+
+.border{
+    border-right: solid 1px;
+    float:left;
+    display: inline-block;
+    width:1%;
+    height:64%;
+}
+
+p {
+	font-size:17px;
+	color:white;
+	font-family: Century Gothic, sans-serif;
+	text-align: center;
+	//background-color: green;
+}
+p.quote{
+    font-weight: bold;
+}
+
+.expansion
+{
+	background:rgba(0,0,0,0.8);
+	display:none;
+	height:100%;
+	left:0;
+	position:fixed;
+	text-align:center;
+	top:0;
+	width:100%;
+	z-index:9999;
+}
+
+.expansion img
+{
+	height:auto;
+	margin-top:5%;
+	width:50%;
+}
+
+.expansion:target
+{
+	display:block;
+	outline:none;
+}

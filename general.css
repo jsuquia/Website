@@ -1,3 +1,4 @@
+
 body
 {
     background-image: url('images/wood3.jpg'); 
@@ -106,3 +107,14 @@ ul.nav a:hover{
 .section a:hover {
 	color: orange;
 }
+
+@media (max-width:768px) {
+    
+    .section
+    {
+        font-size: 10px;
+        width: 32%;
+        margin-top: 100%;
+    }
+}
+
